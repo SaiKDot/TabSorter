@@ -1,0 +1,36 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [
+         "assets/js/jquery.min.js",
+         "background.js"
+      ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "assets/icon_19.png",
+         "38": "assets/icon_38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Tab Sorter"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "tabsorter@",
+         "strict_min_version": "42.0"
+      }
+   },
+   "description": "This extension provides tools to organize and sort tabs",
+   "icons": {
+      "128": "assets/icon_128.png",
+      "16": "assets/icon_16.png",
+      "32": "assets/icon_32.png",
+      "64": "assets/icon_64.png"
+   },
+   "manifest_version": 2,
+   "name": "Tab Sorter",
+   "permissions": [
+      "tabs"
+   ],
+   "version": "1.3"
+}
